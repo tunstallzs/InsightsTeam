@@ -1,0 +1,12 @@
+Basics of Python 
+    Data Types (strings, ints, floats, etc)
+    Variables and Assignments 
+    Arrays and Lists 
+    Conditional Statements (if, else, elif) 
+    Boolean Algebra (and, or, not) 
+Basics of Libraries 
+    What is a library?
+    How do I Import?
+    What the heck is pip3?
+Maybe
+    Numpy and Pandas

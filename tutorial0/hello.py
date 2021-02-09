@@ -12,4 +12,8 @@
 
 print("Hello World!")
 your_name = input("What is your name? ")
-print(f"\nHello, {your_name}! Welcome to coding in Python!\n")
+
+# There are more ways than one to accomplish the same thing...
+# We will disucss f" later, take aquick peek now! 
+print("\nHello " + your_name + "! Welcome to coding in Python!")
+print(f"Hello {your_name}! Welcome to coding in Python!\n")

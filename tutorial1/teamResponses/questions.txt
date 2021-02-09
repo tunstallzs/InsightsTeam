@@ -1,0 +1,11 @@
+Please submit a pull request answering these questions.
+Your file should be in this directory, 
+Make sure the filename is your full name, in the
+followinf format. 
+    Ex: RashedRifat
+
+x = 5
+y = 10
+z = ""
+
+1. 
