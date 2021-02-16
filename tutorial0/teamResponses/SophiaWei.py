@@ -1,0 +1,1 @@
+print('Hello, World! This is Sophia Wei ^-^ Python is great lol')
