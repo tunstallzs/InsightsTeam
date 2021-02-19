@@ -23,7 +23,7 @@ string = str(num)
 print(f"string: {string}, num: {num}")                  # Note that num does not change! 
 print(f"bool(0) --> {bool(0)}, bool(1) --> {bool(1)}")  # boolean is kind of special in Python! 
 print(f"bool(\"\") --> {bool('')}, , bool(\"hello!\") --> {bool('Hello')}")
-print("String in Python can be 'falsy', which can be useful!\n")
+print("String in Python can be 'falsy', which can be useful in many circumstances!\n")
 
 # Variables and Assingments 
 # So far, when we do x = 5, we assign 5 to the variable 5
@@ -52,4 +52,3 @@ x += 5                          # this is the same as x = x + 5
 x -= 5                          # this is the same as x = x - 5
 x *= 5                          # this is the same as x = x * 5
 x /= 5                          # this is the same as x = x / 5 
-
