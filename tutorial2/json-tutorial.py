@@ -48,5 +48,3 @@ print("sequence: ", sequence)
 
 # That should be enough for a quick overview of what JSON is and how to use it. 
 # Now, lets move onto API's, one of the reasons that we reviewed this in the first place. 
-
-exit()
