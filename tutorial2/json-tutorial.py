@@ -45,6 +45,30 @@ print("ID: ", id)
 sequence = complexJSON["type"]["sequence"]
 print("sequence: ", sequence)
 
+# We quickly went past some JSON methods so lets explore them a little bit more here. 
+# What does json.loads (pronounched load-s) do?
+# Well, it does as it states - it creates a JSON object (really a dictonary!)
+# based on a JSON string. Can you guess what the s stands for?
+# This is useful whenever we get back some sort of JSON object from an API - 
+# sometimes, the retuned data is in a string format and can be converted into 
+# a JSON object through this method. Let's explore this a little bit furtehr! 
+loadJSON = json.loads("""{"Hello": "World", 
+                        "Example": {
+                            "Demo": "01", "Day": "Friday"}, 
+                            "Librarires": ["JSON", "Requests"]
+                            } """)
+print("Loading a JSON string: ", loadJSON)
+
+
+# What about JSON to load? Well, take a look at this folder - notice a demo.json 
+# file? This is a JSON object and can be read as such. To load it into Python 
+# we have to first open the file and then read it. To open it, we need to use 
+# the open keyword, which allows for a file to be read by Python. 
+# We can then pass this back into JSON.load() which will read it and return a neww
+# JSON object. Take a look at this example in lines 23-27.
+# Being able to read a file can be akin to a channel being opened - we must close 
+# it when we are done. To do this, simply write fileName.close()
+
 
 # That should be enough for a quick overview of what JSON is and how to use it. 
 # Now, lets move onto API's, one of the reasons that we reviewed this in the first place. 
