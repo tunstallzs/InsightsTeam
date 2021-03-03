@@ -1,0 +1,9 @@
+{
+    "Hello":"World",
+    "ID":2,
+    "type": {
+        "subject":"tutorial",
+        "sequence":1,
+        "binary":"0b10"
+    }
+}
