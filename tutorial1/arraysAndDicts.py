@@ -32,9 +32,18 @@ State1 = ["County1", "County2", "County3"]
 #              "County2" would be State1[2]
 
 State1[0:2]
-#This index tells us that we want to take 2 items from
-#State1 starting from State1[0]
+#This index tells us that we want to take 
+# a list starting from State1[0] and ending
+#at the 2nd list item
 #Therefore this reurns ['County1', 'County2']
+
+#Another example
+State1[1:3]
+#This index tells us that we want to take 
+# a list starting from State1[1] and ending
+#at the 3rd list item
+#Therefore this reurns ['County2', 'County3']
+#List operations:
 #List operations:
 
 #If we wanted to change a list item. Suppose we
