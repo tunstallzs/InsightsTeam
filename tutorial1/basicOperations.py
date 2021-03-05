@@ -5,12 +5,13 @@
 num = 2021     
 print("num: ", num, "\nnum data type: ", type(num), "\n")  
 
+
 # Floats (decimals)
 flt = 2020.2
 print("flt: ", flt, "\nflt data type:", type(flt), "\n")
 
 # Strings (text!)
-string = "Part II"
+string = "Part II num float whatever"
 print(f"string: {string}\nstring data type: {type(string)}\n")
 
 # Boolean (true and false)
@@ -32,8 +33,9 @@ x = 5
 print("x: ", x)
 print("x * 5: ", x * 5, "\n")
 
-# If we want to change the value of 5, we need to reassign something to it! 
-x = 10
+
+# If we want to change the value of x, we need to reassign something to it! 
+x = x * 2
 print("After x = 10: x = ", x, "\n")
 
 # We can perform normal arithmetic on x as asual
@@ -45,6 +47,7 @@ x = x * 10
 print("After x = x * 5: x =", x)
 x = x / 10 
 print("After x = x / 5: x =", x, "\n")
+exit()
 
 # To make this much faster (because we're lazy), we can use 
 # special operators! 

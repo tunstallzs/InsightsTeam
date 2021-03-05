@@ -1,3 +1,4 @@
+'''
 # If, Else and Elif statements
 # What is a conditional statement?
 # It tells a program to execute different actions depending on whether the condition is true or false
@@ -48,3 +49,35 @@ else:
 ##For more information and visuals, there are good site:
 #https://openbookproject.net/thinkcs/python/english3e/conditionals.html 
 #https://realpython.com/python-conditional-statements/
+'''
+
+# Let's take a look at some examples! 
+
+a = 5
+b = 10
+
+# What will the follwoing statement print out? 
+if a == 15:
+    print("a is 5!")
+
+# What about now? 
+if a < b:
+    print("a is less than b!")
+else:
+    print("a is not less than b!")
+
+# How about this one? 
+if b > a:
+    print("b is greater than a")
+elif b == 10:
+    print("b == 10")
+elif a == 5:
+    print("a == 5")
+else:
+    print("Nada!")
+
+# One last onE1 
+if a == b:
+    print("a == b")
+elif a < b:
+    print("a < b")
