@@ -47,7 +47,6 @@ x = x * 10
 print("After x = x * 5: x =", x)
 x = x / 10 
 print("After x = x / 5: x =", x, "\n")
-exit()
 
 # To make this much faster (because we're lazy), we can use 
 # special operators! 

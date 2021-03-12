@@ -9,7 +9,7 @@ if not name:
     raise ValueError("You did not enter your name! Please do so.")
 
 post_response = requests.post("https://9dontxvnf1.execute-api.us-east-2.amazonaws.com/alpha/record",
-                data=json.dumps({"full_name" : name, "TID" : "02", "hash" : "ha8r4buxDz"})
+                data=json.dumps({"full_name" : name, "TID" : "03", "hash" : "F542yy4nAp"})
             )
 
 print(post_response.json())
