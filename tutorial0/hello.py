@@ -11,9 +11,9 @@
 # Lets say hello to the world! 
 
 print("Hello World!")
-your_name = input("What is your name? ")
+# your_name = input("What is your name? ")
 
 # There are more ways than one to accomplish the same thing...
 # We will disucss f" later, take aquick peek now! 
-print("\nHello " + your_name + "! Welcome to coding in Python!")
-print(f"Hello {your_name}! Welcome to coding in Python!\n")
+#print("\nHello " + your_name + "! Welcome to coding in Python!")
+#print(f"Hello {your_name}! Welcome to coding in Python!\n")
